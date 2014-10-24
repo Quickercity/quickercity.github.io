@@ -1,3 +1,31 @@
-style.css
-p {font-style: Arial;
-  color: purple;}
+p 
+{
+	text-align: center;
+	font-family: Arial;
+    color: #4C004C;
+    font-size: 25px;
+}
+
+h1 
+{
+	text-align: center;
+	font-family: Arial;
+    color: white; 
+    background-color: #4C004C;
+    font-size: 60px;
+   }
+
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2px;
+  border:12px solid #34b413;
+  border-style: ridge;
+}
+
+body
+{
+	background-color: #c6c9c5;
+}
