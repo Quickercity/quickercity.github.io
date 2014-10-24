@@ -8,12 +8,12 @@ p
 
 h1 
 {
-	text-align: center;
-	font-family: century gothic;
-    color: #c6c9c5; 
+	text-align: left;
+	font-family: montserrat, sans serif;
+    color: white; 
     background-color: #4C004C;
-    font-size: 60px;
-}
+    font-size: 40px;
+} 
 
 img 
 {
