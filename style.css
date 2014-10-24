@@ -23,6 +23,8 @@ img
   padding:4px;
   border:12px solid #34b413;
   border-style: ridge;
+  width: 50%;
+  height:auto;
 }
 
 body
