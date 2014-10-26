@@ -1,18 +1,18 @@
 p 
 {
-	text-align: center;
-	font-family: Arial;
+	 text-align: center;
+	 font-family: montserrat, sans serif;
     color: #4C004C;
     font-size: 25px;
 }
 
 h1 
 {
-	text-align: left;
+	text-align: center;
 	font-family: montserrat, sans serif;
     color: white; 
     background-color: #4C004C;
-    font-size: 40px;
+    font-size: 30px;
 } 
 
 img 
@@ -20,9 +20,6 @@ img
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding:4px;
-  border:12px solid #34b413;
-  border-style: ridge;
   width: 50%;
   height:auto;
 }
@@ -30,4 +27,16 @@ img
 body
 {
 	background-color: #c6c9c5;
+}
+
+#twitter {
+  position:absolute;
+  top: 23px;
+  right: 15px;
+}
+
+#linkedin {
+  position:absolute;
+  top: 23px;
+  right: 50px;
 }
