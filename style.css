@@ -1,19 +1,22 @@
-p 
+body
 {
-	 text-align: center;
-	 font-family: montserrat, sans serif;
-    color: #4C004C;
-    font-size: 25px;
+  font-family: montserrat, sans serif;
 }
 
-h1 
+header
 {
-	text-align: center;
-	font-family: montserrat, sans serif;
-    color: white; 
-    background-color: #4C004C;
-    font-size: 30px;
-} 
+  top: 5px;
+  background-color: #4C004C;
+  color: white;
+}
+
+
+#myname
+{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
 
 img 
 {
@@ -24,19 +27,17 @@ img
   height:auto;
 }
 
-body
-{
-	background-color: #c6c9c5;
+#therest {
+  text-align: center;
+  color: #4C004C;
 }
 
-#twitter {
-  position:absolute;
-  top: 23px;
-  right: 15px;
+ul {
+  list-style type: none;
 }
 
-#linkedin {
-  position:absolute;
-  top: 23px;
-  right: 50px;
+li {
+  display: inline;
 }
+
+
