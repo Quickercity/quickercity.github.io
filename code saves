@@ -1,3 +1,150 @@
 <div id="linkedin"><a href="http://www.linkedin.com/in/quickercity"/><img src= "linkedin.jpg"></a></div>
 
 			 <div id="twitter"><a href="https://twitter.com/Quickercity"/><img src= "twitter.jpg"></a></div>
+
+				<div id="Logo"><a href="http://quickercity.net/"/><img src= "quickercity.jpeg" /></a></div>   
+
+
+
+				/* START NAV MENU */
+nav {
+  background-color: white;
+  height:40px;
+  margin: 0 auto;
+}
+ 
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: inline;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  background: purple;
+  color: black;  
+  margin-left: 1px;
+  white-space: nowrap;
+  height:15px; /* Width and height of top-level nav items */
+  width:60px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  background: red; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a { 
+  background: orange; 
+  height:30px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover { 
+  background: green; 
+}
+ 
+nav ul li ul li a {
+    text-align:center; /* Top-level items are centered, but nested list items are left-aligned */
+}
+
+/* END NAV MENU */
+
+/* START NAV MENU */
+nav {
+  background-color: white;
+  height:40px;
+  margin: 0 auto;
+}
+ 
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: inline;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  background: purple;
+  color: black;  
+  margin-left: 1px;
+  white-space: nowrap;
+  height:15px; /* Width and height of top-level nav items */
+  width:60px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  background: red; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a { 
+  background: orange; 
+  height:30px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover { 
+  background: green; 
+}
+ 
+nav ul li ul li a {
+    text-align:center; /* Top-level items are centered, but nested list items are left-aligned */
+}
+
+/* END NAV MENU */
+
